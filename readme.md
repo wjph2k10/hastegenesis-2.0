@@ -35,9 +35,6 @@ a player holding a Vigor Gem
 **<p align="center">Q: How do I get gems back if I lose them?</p>**
 <p align="center">A: Simply enter the command "/trigger use_if_your_gem_is_gone"!</p>
 
-**<p align="center">Q: How do I stop the gems from dropping on death?</p>**
-<p align="center">A: From my knowledge, there isn't a way to do this in a vanilla pack but if you use server side plugins like <a href="https://www.spigotmc.org/resources/keepitems.97411/">keepitems</a> and add the configuration below!</p>
-
 <details>
 <summary>Plugin Configuration</summary>
 
