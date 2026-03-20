@@ -1,0 +1,12 @@
+{
+  "criteria": {
+	"using_item": {
+	  "trigger": "minecraft:tick"
+	}
+  },
+  "rewards": {
+	"function": "hastegenesis:events/misc/first_join",
+	"loot": [],
+	"recipes": []
+  }
+}

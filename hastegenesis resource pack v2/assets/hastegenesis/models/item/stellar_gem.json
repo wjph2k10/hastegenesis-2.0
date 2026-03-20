@@ -1,0 +1,6 @@
+{
+"parent": "hastegenesis:item/template_gem",
+"textures": {
+"layer0": "hastegenesis:item/stellar_gem"
+}
+}

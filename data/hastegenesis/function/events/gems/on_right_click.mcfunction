@@ -1,0 +1,11 @@
+advancement revoke @s only hastegenesis:right_click_gem
+execute if items entity @s weapon.* poisonous_potato[!minecraft:custom_data={is_gem:1b}] if items entity @s weapon.* poisonous_potato[!minecraft:custom_data={isroller:1b}] run return fail
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:pyro_gem"] run function hastegenesis:gems/abilities/right_click/pyro_gem_right_clicked
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:aqua_gem"] run function hastegenesis:gems/abilities/right_click/aqua_gem_right_clicked
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:bolt_gem"] run function hastegenesis:gems/abilities/right_click/bolt_gem_right_clicked
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:vigor_gem"] run function hastegenesis:gems/abilities/right_click/vigor_gem_right_clicked
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:life_gem"] run function hastegenesis:gems/abilities/right_click/life_gem_right_clicked
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:stellar_gem"] run function hastegenesis:gems/abilities/right_click/stellar_gem_right_clicked
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="hastegenesis:placeholder_gem"] run function hastegenesis:gems/abilities/right_click/placeholder_gem_right_clicked
+
+execute if items entity @s weapon.mainhand minecraft:debug_stick[minecraft:item_model="minecraft:barrel",custom_data={isroller:1b}] run function hastegenesis:gems/give/roller/roll

@@ -1,0 +1,1 @@
+tag @s remove hastegenesis_no_cooldowns
