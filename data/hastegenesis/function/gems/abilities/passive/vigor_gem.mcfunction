@@ -1,4 +1,4 @@
-execute as @s run effect give @s minecraft:strength 1 1 true
+execute as @s run effect give @s minecraft:strength 1 0 true
 execute as @s run effect give @s minecraft:jump_boost 1 1 true
 
 execute if score @s[tag=!hastegenesis_no_cooldowns] hastegenesis_cooldown_vigor_gem_left_click matches 0 if score @s hastegenesis_cooldown_vigor_gem_right_click matches 0 run title @s actionbar ["",{"text":"Left click cooldown: ","color":"green"},{"text":"READY","color":"dark_purple"},{"text":" | ","bold":true,"color":"blue"},{"text":"Right click cooldown: ","color":"green"},{"text":"READY","color":"dark_purple"}]
