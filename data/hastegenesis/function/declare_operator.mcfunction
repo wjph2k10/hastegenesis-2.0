@@ -1,0 +1,17 @@
+scoreboard players enable @s hastegenesis_set_aqua_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_aqua_gem_left_click_cooldown
+scoreboard players enable @s hastegenesis_set_bolt_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_bolt_gem_left_click_cooldown
+scoreboard players enable @s hastegenesis_set_life_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_life_gem_left_click_cooldown
+scoreboard players enable @s hastegenesis_set_placeholder_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_placeholder_gem_left_click_cooldown
+scoreboard players enable @s hastegenesis_set_pyro_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_pyro_gem_left_click_cooldown
+scoreboard players enable @s hastegenesis_set_stellar_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_stellar_gem_left_click_cooldown
+scoreboard players enable @s hastegenesis_set_vigor_gem_right_click_cooldown
+scoreboard players enable @s hastegenesis_set_vigor_gem_left_click_cooldown
+
+execute if entity @s[tag=!hastegenesis_is_operator] run return run tag @s add hastegenesis_is_operator
+execute if entity @s[tag=hastegenesis_is_operator] run return run tag @s remove hastegenesis_is_operator

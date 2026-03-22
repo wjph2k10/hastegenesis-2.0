@@ -1,5 +1,5 @@
-scoreboard players enable @s use_if_your_gem_is_gone
-scoreboard players set @s use_if_your_gem_is_gone 0
+scoreboard players enable @s hastegenesis_use_if_your_gem_is_gone
+scoreboard players set @s hastegenesis_use_if_your_gem_is_gone 0
 
 clear @s minecraft:debug_stick[minecraft:custom_data={is_gem:1b}]
 

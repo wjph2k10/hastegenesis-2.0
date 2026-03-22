@@ -33,6 +33,6 @@ a player holding a Vigor Gem
 <p align="center">A: of course, as long as the download stays hosted within the modrinth ecosystem!</p>
 
 **<p align="center">Q: How do I get gems back if I lose them?</p>**
-<p align="center">A: Simply enter the command "/trigger use_if_your_gem_is_gone"!</p>
+<p align="center">A: Simply enter the command "/trigger hastegenesis_use_if_your_gem_is_gone"!</p>
 
 <details>
