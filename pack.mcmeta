@@ -2,8 +2,8 @@
     "pack": {
         "description": "A datapack made by Wjph2k10",
         "pack_format": 94,
-        "supported_formats": {"min_inclusive": 94, "max_inclusive": 95},
-        "min_format": 15,
+        "supported_formats": {"min_inclusive": 94, "max_inclusive": 94},
+        "min_format": 94,
         "max_format": 999
     }
 }
