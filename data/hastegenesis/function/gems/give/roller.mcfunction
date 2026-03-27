@@ -13,4 +13,6 @@ give @s minecraft:debug_stick[\
     \
     minecraft:consumable={\
         "consume_seconds":1000000,\
-        "animation":"none"}]
+        "on_consume_effects": [],\
+        "animation":"none"},\
+    minecraft:max_stack_size=64]

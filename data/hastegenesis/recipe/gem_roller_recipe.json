@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "H#H"
+  ],
+  "key": {
+    "#": "minecraft:netherite_scrap",
+    "D": "minecraft:debug_stick",
+    "H": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:debug_stick",
+    "components": {
+      "minecraft:custom_data": {
+        "isroller": true
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1000000,
+        "animation": "none",
+        "on_consume_effects": []
+      },
+      "minecraft:item_name": "Gem roller",
+      "minecraft:item_model": "minecraft:barrel",
+      "minecraft:max_stack_size": 64
+    },
+    "count": 1
+  }
+}
