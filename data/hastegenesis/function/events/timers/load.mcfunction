@@ -61,3 +61,57 @@ scoreboard objectives add hastegenesis_config_cooldowns dummy "Configurable cool
 
 #jjk
 function hastegenesis:jjk/event/load
+
+#anything past here will not happen if the world has been loaded before
+execute if data storage hastegenesis world_loaded run return fail
+execute store result storage hastegenesis world_loaded int 1 run random value 1..2
+
+
+scoreboard objectives add temp dummy
+
+
+scoreboard players set £hastegenesis_temp temp 500
+execute store result storage hastegenesis aqua_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 120
+execute store result storage hastegenesis aqua_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 150
+execute store result storage hastegenesis bolt_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 60
+execute store result storage hastegenesis bolt_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 300
+execute store result storage hastegenesis life_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 240
+execute store result storage hastegenesis life_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 500
+execute store result storage hastegenesis placeholder_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 500
+execute store result storage hastegenesis placeholder_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 140
+execute store result storage hastegenesis pyro_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 500
+execute store result storage hastegenesis pyro_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 60
+execute store result storage hastegenesis stellar_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 1
+execute store result storage hastegenesis stellar_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 60
+execute store result storage hastegenesis vigor_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+scoreboard players set £hastegenesis_temp temp 180
+execute store result storage hastegenesis vigor_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
+
+tellraw @a "loading funny shit complete"
+
+scoreboard objectives remove temp
