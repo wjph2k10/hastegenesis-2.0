@@ -24,17 +24,3 @@ scoreboard players set @s hastegenesis_ability_stellar_gem_no_gravity_toggle 0
 
 scoreboard players enable @s hastegenesis_use_if_your_gem_is_gone
 
-scoreboard players enable @s hastegenesis_set_aqua_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_aqua_gem_left_click_cooldown
-scoreboard players enable @s hastegenesis_set_bolt_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_bolt_gem_left_click_cooldown
-scoreboard players enable @s hastegenesis_set_life_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_life_gem_left_click_cooldown
-scoreboard players enable @s hastegenesis_set_placeholder_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_placeholder_gem_left_click_cooldown
-scoreboard players enable @s hastegenesis_set_pyro_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_pyro_gem_left_click_cooldown
-scoreboard players enable @s hastegenesis_set_stellar_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_stellar_gem_left_click_cooldown
-scoreboard players enable @s hastegenesis_set_vigor_gem_right_click_cooldown
-scoreboard players enable @s hastegenesis_set_vigor_gem_left_click_cooldown
