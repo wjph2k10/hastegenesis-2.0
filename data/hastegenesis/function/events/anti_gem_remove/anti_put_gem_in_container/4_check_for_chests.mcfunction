@@ -5,4 +5,4 @@ execute if score @s hastegenesis_gem_rolled matches 4 run function hastegenesis:
 execute if score @s hastegenesis_gem_rolled matches 5 run function hastegenesis:gems/give/stellar
 execute if score @s hastegenesis_gem_rolled matches 6 run function hastegenesis:gems/give/vigor
 
-$data remove block $(x) $(y) $(z) Items[{id:"minecraft:debug_stick",components:{"minecraft:custom_data":{is_gem:1b}}}]
+$data remove block $(chest_check_x) $(chest_check_y) $(chest_check_z) Items[{id:"minecraft:debug_stick",components:{"minecraft:custom_data":{is_gem:1b}}}]
