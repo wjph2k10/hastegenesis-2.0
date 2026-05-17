@@ -39,6 +39,7 @@ scoreboard objectives add hastegensis dummy "All-purpose scoreboard for Hastegen
 
 #triggers
 scoreboard objectives add hastegenesis_use_if_your_gem_is_gone trigger
+scoreboard objectives add hastegenesis_toggle_no_cooldowns trigger
 scoreboard objectives add hastegenesis_set_pyro_gem_right_click_cooldown trigger
 scoreboard objectives add hastegenesis_set_aqua_gem_right_click_cooldown trigger
 scoreboard objectives add hastegenesis_set_bolt_gem_right_click_cooldown trigger

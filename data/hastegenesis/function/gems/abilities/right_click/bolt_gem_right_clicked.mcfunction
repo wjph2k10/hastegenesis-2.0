@@ -3,5 +3,3 @@ $scoreboard players set @s hastegenesis_cooldown_bolt_gem_right_click $(bolt_gem
 
 effect give @s speed 10 1 true
 effect give @s haste 10 1 true
-
-#tellraw @a "right clicked bolt"
