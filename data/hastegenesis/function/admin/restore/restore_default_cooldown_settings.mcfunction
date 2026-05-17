@@ -44,4 +44,3 @@ execute store result storage hastegenesis vigor_gem_right_click_cooldown int 1 r
 
 scoreboard objectives remove temp
 
-tag @a remove hastegenesis_no_cooldowns
