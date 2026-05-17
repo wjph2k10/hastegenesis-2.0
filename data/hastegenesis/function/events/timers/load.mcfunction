@@ -56,10 +56,6 @@ scoreboard objectives add hastegenesis_set_life_gem_left_click_cooldown trigger
 scoreboard objectives add hastegenesis_set_stellar_gem_left_click_cooldown trigger
 scoreboard objectives add hastegenesis_set_placeholder_gem_left_click_cooldown trigger
 
-#Cooldowns
-scoreboard objectives add hastegenesis_config_cooldowns dummy "Configurable cooldowns for Hastegenesis"
-
-
 #jjk
 function hastegenesis:jjk/event/load
 
@@ -69,7 +65,6 @@ execute store result storage hastegenesis world_loaded int 1 run random value 1.
 
 
 scoreboard objectives add temp dummy
-
 
 scoreboard players set £hastegenesis_temp temp 500
 execute store result storage hastegenesis aqua_gem_left_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
