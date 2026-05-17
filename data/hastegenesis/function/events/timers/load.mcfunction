@@ -113,6 +113,4 @@ execute store result storage hastegenesis vigor_gem_left_click_cooldown int 1 ru
 scoreboard players set £hastegenesis_temp temp 180
 execute store result storage hastegenesis vigor_gem_right_click_cooldown int 1 run scoreboard players get £hastegenesis_temp temp
 
-tellraw @a "loading funny shit complete"
-
 scoreboard objectives remove temp
