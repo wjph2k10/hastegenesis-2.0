@@ -3,3 +3,4 @@ execute if entity @s[tag=!hastegenesis_is_operator] run return run tellraw @s [{
 execute store result storage hastegenesis aqua_gem_right_click_cooldown int 1 run scoreboard players get @s hastegenesis_set_aqua_gem_right_click_cooldown
 scoreboard players enable @s hastegenesis_set_aqua_gem_right_click_cooldown
 scoreboard players set @s hastegenesis_set_aqua_gem_right_click_cooldown 0
+#
