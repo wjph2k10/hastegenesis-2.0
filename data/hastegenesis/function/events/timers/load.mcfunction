@@ -30,12 +30,13 @@ scoreboard objectives add hastegenesis_ability_life_gem_saturation dummy
 scoreboard objectives add hastegenesis_ability_life_gem_absorption dummy
 scoreboard objectives add hastegenesis_ability_stellar_gem_gravity dummy
 scoreboard objectives add hastegenesis_ability_stellar_gem_no_gravity_toggle dummy
+scoreboard objectives add hastegenesis_despawn_timer dummy
 
 scoreboard objectives add hastegenesis_gem_rolled dummy
 
 scoreboard objectives add hastegenesis_roll_number dummy
 
-scoreboard objectives add hastegensis dummy "All-purpose scoreboard for Hastegenesis"
+scoreboard objectives add hastegenesis dummy "All-purpose scoreboard for Hastegenesis"
 
 #triggers
 scoreboard objectives add hastegenesis_use_if_your_gem_is_gone trigger
